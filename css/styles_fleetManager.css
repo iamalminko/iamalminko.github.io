@@ -1,0 +1,82 @@
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; z-index: 0; }
+
+.marker {
+  background-image: url('../assets/img/car.png');
+  background-size: cover;
+  background-color: greenyellow;
+  width: 55px;
+  height: 25px;
+  border-radius: 15%;
+  cursor: pointer;
+  
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.hold {
+  background-color: red;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #FFF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#section2-wrapper {
+    position:relative;
+    z-index: 1;
+    margin: 50px;
+}
+#btn_hamburger {
+    font-size:30px;
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.sidenav li {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
