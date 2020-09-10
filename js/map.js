@@ -1,6 +1,7 @@
 function getAllDrivers() {
     
 }
+var currentMarkers = []
 
 async function updateTaxiesPositions(){
     /* Get requests: all taxies from database. */
@@ -10,17 +11,19 @@ async function updateTaxiesPositions(){
       return response.json();
     })
     .then(function (responseJson) {
-      let drivers = responseJson.drivers
+      let drivers = responseJson
       drivers.forEach(driver => {
         let feature = {
             'type': 'Feature',
             'properties': {
                 'description': driver.email,
-                'iconSize': [60, 60]
+                'state': driver.state,
+                '_id': driver._id
             },
             'geometry': {
                 'type': 'Point',
-                'coordinates': [driver.gpsLNG, driver.gpsLAT]
+                'coordinates': [driver.gpsLNG, driver.gpsLAT],
+                'orientation': driver.orientation,
             }
         }
         features.push(feature)
@@ -28,29 +31,57 @@ async function updateTaxiesPositions(){
     })
     .catch(function (error) {
       console.log("Error: " + error);
-    })    
+    })
 
     /* Update taxies location markers. */
     features.forEach(function (marker) {
-        // create a DOM element for the marker
-        var el = document.createElement('div');
-        el.className = 'taxi_marker';
-        el.style.backgroundImage =
-        'url(https://iamalminko.github.io/assets/img/car.png';
-        el.style.width = '55px';
-        el.style.height = '25px';
-        el.style.borderRadius = '20px';
-        el.style.backgroundSize = 'cover';
-         
-        el.addEventListener('click', function () {
-            window.alert(marker.properties.description);
-        });
-         
-        // add marker to map
-        new mapboxgl.Marker(el)
-        .setLngLat(marker.geometry.coordinates)
-        .addTo(map);
-        });
+        var markerAlreadyOnTheMap = false
+        /* Check if the taxi marker is already on the map. */
+        currentMarkers.forEach(currentMarker => {
+            console.log(currentMarkers.length)
+            console.log(currentMarker.getElement().id, marker.properties._id)
+            if(currentMarker.getElement().id === marker.properties._id)
+            {
+                /* Then just update location and orientation. */
+                markerAlreadyOnTheMap = true
+                currentMarker.setLngLat(marker.geometry.coordinates)
+                currentMarker.setRotation(marker.geometry.orientation)
+            }
+        })
+
+        if(!markerAlreadyOnTheMap)
+        {
+            // create a div element for the marker
+            var el = document.createElement('div');
+            el.className = 'taxi_marker';
+            el.id = marker.properties._id;
+            el.style.backgroundImage =
+            'url(https://iamalminko.github.io/assets/img/car.png';
+            el.style.width = '40px';
+            el.style.height = '19px';
+            el.style.borderRadius = '20px';
+            el.style.backgroundSize = 'cover';
+            el.style.backgroundColor = 'greenyellow';
+             
+            el.addEventListener('click', function () {
+                window.alert(marker.properties.description);
+            });
+            el.addEventListener('mouseenter', function () {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+            el.addEventListener('mouseleave', function () {
+                map.getCanvas().style.cursor = '';
+            });
+             
+            // add marker to map
+            var newMarker = new mapboxgl.Marker(el)
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map)
+            .setRotation(marker.geometry.orientation);
+
+            currentMarkers.push(newMarker)            
+        }
+    });
 }
 
 function updateRideRequestsPositions(){
@@ -75,38 +106,5 @@ map.on('load', function() {
     setInterval(updateTaxiesPositions, 2500) // milliseconds
     
     /* Update customers position that sent ride requests - background service */
-    setInterval(updateRideRequestsPositions, 2500) // milliseconds    
-     
-
-
-
-
-    // When a click event occurs on a feature in the places layer, open a popup at the
-    // location of the feature, with description HTML from its properties.
-    map.on('click', 'taxies', function(e) {
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var description = e.features[0].properties.description;
-        
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-        
-        new mapboxgl.Popup()
-        .setLngLat(coordinates)
-        .setHTML(description)
-        .addTo(map);
-    });
-     
-    // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', 'taxies', function() {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-     
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'taxies', function() {
-        map.getCanvas().style.cursor = '';
-    });
+    setInterval(updateRideRequestsPositions, 2500) // milliseconds
 });
