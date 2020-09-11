@@ -13,6 +13,10 @@ async function updateTaxiesPositions(){
     .then(function (responseJson) {
       let drivers = responseJson
       drivers.forEach(driver => {
+        /* Skip driver if: */
+        if(driver.state === "INACTIVE") return
+        if(driver.gpsLAT == null) return
+        if(driver.gpsLNG == null) return
         let feature = {
             'type': 'Feature',
             'properties': {
@@ -39,7 +43,6 @@ async function updateTaxiesPositions(){
         /* Check if the taxi marker is already on the map. */
         currentMarkers.forEach(currentMarker => {
             console.log(currentMarkers.length)
-            console.log(currentMarker.getElement().id, marker.properties._id)
             if(currentMarker.getElement().id === marker.properties._id)
             {
                 /* Then just update location and orientation. */
@@ -72,7 +75,7 @@ async function updateTaxiesPositions(){
             el.addEventListener('mouseleave', function () {
                 map.getCanvas().style.cursor = '';
             });
-             
+            
             // add marker to map
             var newMarker = new mapboxgl.Marker(el)
             .setLngLat(marker.geometry.coordinates)
