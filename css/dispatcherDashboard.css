@@ -1,23 +1,8 @@
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; z-index: 0; }
 
-.marker {
-  background-image: url('../assets/img/car.png');
-  background-size: cover;
-  background-color: greenyellow;
-  width: 55px;
-  height: 25px;
-  border-radius: 15%;
-  cursor: pointer;
-  
-}
-
 body {
   font-family: "Lato", sans-serif;
-}
-
-.hold {
-  background-color: red;
 }
 
 .sidenav {
@@ -46,14 +31,6 @@ body {
   color: #f1f1f1;
 }
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -79,4 +56,16 @@ body {
   color: #818181;
   display: block;
   transition: 0.3s;
+}
+
+.hold {
+  visibility: hidden;
+}
+
+.inivisible{
+  visibility: hidden;
+}
+
+.assigned {
+  background-color: lightcoral;
 }

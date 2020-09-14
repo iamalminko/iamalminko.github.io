@@ -42,7 +42,6 @@ async function updateTaxiesPositions(){
         var markerAlreadyOnTheMap = false
         /* Check if the taxi marker is already on the map. */
         currentMarkers.forEach(currentMarker => {
-            console.log(currentMarkers.length)
             if(currentMarker.getElement().id === marker.properties._id)
             {
                 /* Then just update location and orientation. */
@@ -56,7 +55,7 @@ async function updateTaxiesPositions(){
         {
             // create a div element for the marker
             var el = document.createElement('div');
-            el.className = 'taxi_marker';
+            el.className = 'marker-taxi';
             el.id = marker.properties._id;
             el.style.backgroundImage =
             'url(https://iamalminko.github.io/assets/img/car.png';
@@ -82,7 +81,7 @@ async function updateTaxiesPositions(){
             .addTo(map)
             .setRotation(marker.geometry.orientation);
 
-            currentMarkers.push(newMarker)            
+            currentMarkers.push(newMarker)
         }
     });
 }
