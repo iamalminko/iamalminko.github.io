@@ -1,3 +1,5 @@
+let FLAGdragInProcess = false
+
 function openNav() {
     document.getElementById("mySidenav").style.width = "400px";
 }
@@ -7,6 +9,9 @@ function closeNav() {
 }
 
 function rideRequest_updateListService() {
+  if(FLAGdragInProcess) return
+  else
+  {
     fetch("/dispatcherDashboard/rideRequests")
     .then(function (response) {
       return response.json();
@@ -24,7 +29,7 @@ function rideRequest_updateListService() {
       rideRequests.forEach(function(rideRequest)
       {
         if(rideRequest.state != "INIT") return
-        var li = document.createElement("li");
+        var li = document.createElement("div");
         li.appendChild(document.createTextNode(rideRequest.address));
         li.setAttribute("id", rideRequest._id);
         li.setAttribute("href", "#");
@@ -38,6 +43,7 @@ function rideRequest_updateListService() {
     .catch(function (error) {
       console.log("Error: " + error);
     })
+  }    
 }
 
 function dragNdrop(){
@@ -61,13 +67,14 @@ function dragNdrop(){
 // Drag Functions
 
 function dragStart(e) {
-  this.className += ' hold';
-  setTimeout(() => (this.className = 'invisible'), 0);
+  setTimeout(() => (this.className = 'hold'), 0);
   e.dataTransfer.setData("text/plain", e.target.id);
+  FLAGdragInProcess = true
 }
 
 function dragEnd() {
-  //this.className = 'fill';
+  this.className = "btn-rideRequest";
+  FLAGdragInProcess = false
 }
 
 function dragOver(e) {
@@ -84,6 +91,7 @@ function dragLeave() {
 }
 
 async function dragDrop(e) {
+  FLAGdragInProcess = false
   e.preventDefault();
   //this.className = 'empty';
   var rideRequestID = e.dataTransfer.getData("text");
