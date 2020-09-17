@@ -108,6 +108,9 @@ async function dragDrop(e) {
   {
     var element = document.getElementById(rideRequestID);
     element.parentNode.removeChild(element);
+    
+    var el = document.getElementById(driverID);
+    el.className = 'marker-taxi assigned';
   }
 }
 

@@ -55,7 +55,7 @@ async function updateTaxiesPositions(){
         {
             // create a div element for the marker
             var el = document.createElement('div');
-            el.className = 'marker-taxi';
+            el.className = 'marker-taxi available';
             el.id = marker.properties._id;
             el.style.backgroundImage =
             'url(https://iamalminko.github.io/assets/img/car.png';
@@ -63,7 +63,6 @@ async function updateTaxiesPositions(){
             el.style.height = '19px';
             el.style.borderRadius = '20px';
             el.style.backgroundSize = 'cover';
-            el.style.backgroundColor = 'greenyellow';
              
             el.addEventListener('click', function () {
                 window.alert(marker.properties.description);
@@ -91,6 +90,104 @@ function updateRideRequestsPositions(){
 
 }
 
+/* Demo function */
+async function simulateDriverMovement(){
+    /* Just copy the function above when you finish. */
+    /* Get requests: all taxies from database. */
+    let drivers = []
+    await fetch("/dispatcherDashboard/drivers")
+    .then(function (response) {
+    return response.json();
+    })
+    .then(async function (responseJson) {
+        drivers = responseJson
+        drivers.forEach(driver => {
+        /* POST Request: */
+        var params = {
+            timestamp: 123123141,
+            _id: driver._id,
+            gpsLAT: getGpsLATShifted(driver.orientation, driver.gpsLAT),
+            gpsLNG: getGpsLNGShifted(driver.orientation, driver.gpsLNG)
+        }
+        postData('/update/driverGPS', params)
+            
+        })
+    })
+    .catch(function (error) {
+        console.log("Error: " + error);
+    })
+}
+
+/* Demo Function*/
+function getGpsLATShifted(orientation, lat){
+    let shift = Math.random()*0.00002
+    let points = {
+        up: 43.863462,
+        down: 43.840947,
+    }
+
+    if(orientation > 180 && orientation <= 360)
+    {
+        if(lat > points.up)
+        {
+            shift *= -1
+        }
+    }
+    else
+    {
+        if(lat < points.down)
+        {
+            shift *= -1
+        }
+    }
+
+    return (lat+shift)
+}
+/* Demo Function*/
+function getGpsLNGShifted(orientation, lng){
+    let shift = Math.random()*0.0002
+    let points = {
+        left: 18.324956,
+        right: 18.445873,
+    }
+
+    if(orientation > -90 && orientation <= 90)
+    {
+        if(lng > points.right)
+        {
+            shift *= -1
+        }
+    }
+    else
+    {
+        if(lng < points.left)
+        {
+            shift *= -1
+        }
+    }
+
+    return (lng+shift)
+}
+
+/* POST Request */
+async function postData(url = '', data = {}) {
+    // Default options are marked with *
+    const response = await fetch(url, {
+      method: 'POST', // *GET, POST, PUT, DELETE, etc.
+      mode: 'cors', // no-cors, *cors, same-origin
+      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: 'same-origin', // include, *same-origin, omit
+      headers: {
+        'Content-Type': 'application/json'
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      redirect: 'follow', // manual, *follow, error
+      referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+      body: JSON.stringify(data) // body data type must match "Content-Type" header
+    });
+    return response.json(); // parses JSON response into native JavaScript objects
+  }
+
 
 /* Initialize map with access token. */
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWxtaW5rbyIsImEiOiJjang3ZDNjNXIwOGY3M3ZwbjcyM2EzbnRoIn0.myeMHkv94NNZ2FDwrC5A9w';
@@ -109,4 +206,7 @@ map.on('load', function() {
     
     /* Update customers position that sent ride requests - background service */
     setInterval(updateRideRequestsPositions, 2500) // milliseconds
+
+    /* Demo function that simulates movement of taxies. */
+    setInterval(simulateDriverMovement, 2500) // milliseconds
 });

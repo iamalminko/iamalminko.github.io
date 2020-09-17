@@ -65,3 +65,11 @@ body {
   display: block;
   transition: 0.3s;
 }
+
+.available{
+  background-color: greenyellow;
+}
+
+.assigned{
+  background-color: blue;
+}
