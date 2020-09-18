@@ -1,6 +1,3 @@
-body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 100%; z-index: 0; }
-
 body {
   font-family: "Lato", sans-serif;
 }
@@ -47,29 +44,4 @@ body {
     position:absolute;
     top:0;
     right:0;
-}
-
-.hold {
-  color: #FFF;
-}
-
-.assigned {
-  background-color: lightcoral;
-}
-
-.btn-rideRequest{
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.available{
-  background-color: greenyellow;
-}
-
-.assigned{
-  background-color: blue;
 }

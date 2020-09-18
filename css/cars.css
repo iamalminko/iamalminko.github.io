@@ -1,0 +1,15 @@
+.available{
+  background-color: greenyellow;
+}
+
+.assigned{
+  background-color: blue;
+}
+
+.pickup{
+  background-color: coral;
+}
+
+.busy{
+  background-color: red;
+}
