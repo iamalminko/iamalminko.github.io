@@ -1,8 +1,11 @@
+.unavailable{
+  background-color: gray;
+}
 .available{
   background-color: greenyellow;
 }
 
-.assigned{
+.request-assigned{
   background-color: blue;
 }
 

@@ -48,6 +48,10 @@ async function updateTaxiesPositions(){
                 markerAlreadyOnTheMap = true
                 currentMarker.setLngLat(marker.geometry.coordinates)
                 currentMarker.setRotation(marker.geometry.orientation)
+
+                var taxiMarkerClass = "mapboxgl-marker marker-taxi" + getMarkerColor(marker.properties.state)
+                var el = document.getElementById(marker.properties._id);
+                el.className = taxiMarkerClass
             }
         })
 
@@ -55,7 +59,7 @@ async function updateTaxiesPositions(){
         {
             // create a div element for the marker
             var el = document.createElement('div');
-            el.className = 'marker-taxi available';
+            el.className = "marker-taxi" + getMarkerColor(marker.properties.state)
             el.id = marker.properties._id;
             el.style.backgroundImage =
             'url(https://iamalminko.github.io/assets/img/car.png';
@@ -88,6 +92,15 @@ async function updateTaxiesPositions(){
 function updateRideRequestsPositions(){
     /* Just copy the function above when you finish. */
 
+}
+
+function getMarkerColor(state){
+    var ret = ""
+    if(state === "UNAVAILABLE") ret += " unavailable"
+    else if(state === "AVAILABLE") ret += " available"
+    else if(state === "REQUEST_ASSIGNED") ret += " request-assigned"
+
+    return ret
 }
 
 /* Initialize map with access token. */

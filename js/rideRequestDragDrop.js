@@ -63,6 +63,6 @@ async function dragDrop(e) {
     element.parentNode.removeChild(element);
     
     var el = document.getElementById(driverID);
-    el.className = 'marker-taxi assigned';
+    el.className = 'mapboxgl-marker marker-taxi request-assigned';
   }
 }
