@@ -99,6 +99,7 @@ function getMarkerColor(state){
     if(state === "UNAVAILABLE") ret += " unavailable"
     else if(state === "AVAILABLE") ret += " available"
     else if(state === "REQUEST_ASSIGNED") ret += " request-assigned"
+    else if(state === "PICKUP") ret += " pickup"
 
     return ret
 }
