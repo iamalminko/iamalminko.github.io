@@ -32,7 +32,7 @@ function rideRequest_updateListService() {
         var divRideRequest = document.createElement("div");
         
         var trashcan = document.createElement("img");
-        trashcan.setAttribute('src', '../assets/img/trashcan.png');
+        trashcan.setAttribute('src', 'https://iamalminko.github.io/assets/img/trashcan.png');
         trashcan.setAttribute('class', 'trashcan');
         trashcan.setAttribute('id', rideRequest._id);
         trashcan.setAttribute('height', '20');
