@@ -8,6 +8,20 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
+async function onClick_trashcan(elem){
+  let _id = elem.parentNode.id
+
+  let data = {
+    state: 'DISPATCHER_DELETED_RIDE_REQUEST',
+    _id: _id
+  }
+
+  let list = document.getElementById("listRideRequests");
+  list.removeChild(document.getElementById(_id))
+
+  postData('update/rideRequest', data)
+}
+
 function rideRequest_updateListService() {
   if(FLAGdragInProcess) return
   else
@@ -23,7 +37,7 @@ function rideRequest_updateListService() {
       var child = list.lastElementChild;
       while (child) { 
         list.removeChild(child); 
-          child = list.lastElementChild; 
+          child = list.lastElementChild;
       } 
       
       rideRequests.forEach(function(rideRequest)
@@ -32,11 +46,12 @@ function rideRequest_updateListService() {
         var divRideRequest = document.createElement("div");
         
         var trashcan = document.createElement("img");
-        trashcan.setAttribute('src', 'https://iamalminko.github.io/assets/img/trashcan.png');
+        trashcan.setAttribute('src', 'https://iamalminko.github.io/assets/img/trashcan.svg');
         trashcan.setAttribute('class', 'trashcan');
         trashcan.setAttribute('id', rideRequest._id);
         trashcan.setAttribute('height', '20');
         trashcan.setAttribute('width', '20');
+        trashcan.setAttribute("onclick","onClick_trashcan(this);");
         divRideRequest.appendChild(trashcan);
 
         divRideRequest.appendChild(document.createTextNode(rideRequest.address));

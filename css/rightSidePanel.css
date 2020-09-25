@@ -34,14 +34,26 @@ body {
 }
 
 #section2-wrapper {
-    position:relative;
-    z-index: 1;
-    margin: 50px;
+  position:relative;
+  z-index: 1;
+  margin: 50px;
 }
 #btn_hamburger {
-    font-size:30px;
-    cursor:pointer;
-    position:absolute;
-    top:0;
-    right:0;
+  font-size:30px;
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.btn-rideRequest:hover{
+  color: #B1B1B1;
+}
+
+.trashcan:hover {
+  transform: scale(1.3);
+}
+
+.trashcan { 
+  transition: transform .2s ease-in-out; 
 }
