@@ -100,6 +100,8 @@ function getMarkerColor(state){
     else if(state === "AVAILABLE") ret += " available"
     else if(state === "REQUEST_ASSIGNED") ret += " request-assigned"
     else if(state === "PICKUP") ret += " pickup"
+    else if(state === "DRIVER_AT_A_PICKUP_LOCATION") ret += " pickup"
+    else if(state === "DRIVER_ACCEPTS_CUSTOMER") ret += " driving-customer"
 
     return ret
 }
