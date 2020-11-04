@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Trucking - Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="<%= PUBLIC_ROOT %>/assets/img/icons/favicon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<%= PUBLIC_ROOT %>/css/util.css">
+	<link rel="stylesheet" type="text/css" href="<%= PUBLIC_ROOT %>/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<div class="container-login100" style="background-image: url('<%= PUBLIC_ROOT %>/assets/img/bg-01.jpeg');">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+			<form id="form-signUp" class="login100-form validate-form" action="/login" method="POST" onSubmit="return checkform()" target="hiddenFrame">
+				<span class="login100-form-title p-b-37">
+					Sign In
+				</span>
+
+				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email">
+					<input id="email" class="input100" type="email" name="email" placeholder="email">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
+					<input id="password" class="input100" type="password" name="password" placeholder="password">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-login100-form-btn">
+					<button id="btn-signIn"class="login100-form-btn" onClick="onClick_signIn()">
+						Sign In
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="container-admin">
+		<!-- New Admin -->
+		<h4>Create: </h4>
+		<div>
+			<input id="newAdmin_input" placeholder="Email"/>
+			<button onClick="newAdmin()">New Admin</button>
+		</div>
+		<!-- New Customer -->
+		<div>
+			<input id="newCustomer_input" placeholder="Email"/>
+			<button onClick="newCustomer()">New Customer</button>
+		</div>
+		<!-- New Dispatcher -->
+		<div>
+			<input id="newDispatcher_input" placeholder="Email"/>
+			<button onClick="newDispatcher()">New Dispatcher</button>
+		</div>
+		<!-- New Driver -->
+		<div>
+			<input id="newDriver_input" placeholder="Email"/>
+			<button onClick="newDriver()">New Driver</button>
+		</div>
+		<!-- New Load -->
+		<div>
+			<input id="newLoad_input" placeholder="Pickup Address"/>
+			<button onClick="newLoad()">New Load</button>
+		</div>
+		<!-- New MachineShop -->
+		<div>
+			<input id="newMachineShop_input" placeholder="Name"/>
+			<button onClick="newMachineShop()">New MachineShop</button>
+		</div>
+		<!-- New Mechanic -->
+		<div>
+			<input id="newMechanic_input" placeholder="Email"/>
+			<button onClick="newMechanic()">New Mechanic</button>
+		</div>
+		<!-- New Part -->
+		<div>
+			<input id="newPart_input" placeholder="Name"/>
+			<button onClick="newPart()">New Part</button>
+		</div>
+		<!-- New Session -->
+		<div>
+			<input id="newSession_input" placeholder="Key"/>
+			<button onClick="newSession()">New Session</button>
+		</div>
+		<!-- New Task -->
+		<div>
+			<input id="newTask_input" placeholder="Name"/>
+			<button onClick="newTask()">New Task</button>
+		</div>
+		<!-- New Trailor -->
+		<div>
+			<input id="newTrailor_input" placeholder="Licence Plate"/>
+			<button onClick="newTrailor()">New Trailor</button>
+		</div>
+		<!-- New Truck -->
+		<div>
+			<input id="newTruck_input" placeholder="Licence Plate"/>
+			<button onClick="newTruck()">New Truck</button>
+		</div>
+		<!-- Login -->
+		<h4>Login: </h4>
+		<div>
+			<input id="loginEmail_input" type="Email" placeholder="Email"/>
+			<input id="loginPassword_input" type="Password" placeholder="Password"/>
+			<button onClick="login()">Login</button>
+		</div>
+		<div>
+			<h3>Response: </h3>
+			<label id="response_label" ></label>
+		</div>
+	</div>
+
+	<iframe id="hiddenFrame" name="hiddenFrame" width="0" height="0" border="0" style="display: none;" onload="formResponse();"></iframe>
+
+<!--===============================================================================================-->
+	<script>
+		document.getElementsByClassName("container-admin")[0].style.display = "none";
+	</script>
+	<script src="<%= PUBLIC_ROOT %>/js/login.js"></script>
+	<script src="<%= PUBLIC_ROOT %>/js/testRoutes.js"></script>
+</body>
+</html>

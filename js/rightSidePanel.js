@@ -35,10 +35,10 @@ function rideRequest_updateListService() {
 
       var list = document.getElementById("listRideRequests");
       var child = list.lastElementChild;
-      while (child) { 
-        list.removeChild(child); 
+      while (child) {
+        list.removeChild(child);
           child = list.lastElementChild;
-      } 
+      }
       
       rideRequests.forEach(function(rideRequest)
       {
