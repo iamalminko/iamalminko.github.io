@@ -1,207 +1,711 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Blum - Digitalno Rješenje Za Vaš Biznis</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- Third party plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Blum Labs</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">O Nama</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Usluge</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Unaprijedite svoj biznis uz besplatan probni rok</h1>
-                        <hr class="divider my-4" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Blum Labs Vam može pomoći da rasteretite svoje dispečere i poboljšate kvalitet usluge! Potrebno je samo da skinete Blum aplikaciju i počnete je koristiti besplatno, bez ikakvih obaveza!</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Saznajte više</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Mi imamo ono što vam je potrebno!</h2>
-                        <hr class="divider light my-4" />
-                        <p class="text-white-50 mb-4">Blum Labs ima sve što Vam je potrebno da digitalizirate svoj biznis u tren oka! Izaberite jednu od naših modernih, besplatnih aplikacija! Bez ikakvih obaveza!</p>
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Započnite!</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <h2 class="text-center mt-0">Vama na usluzi</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Pouzdana Aplikacija</h3>
-                            <p class="text-muted mb-0">Naše aplikacije se pažljivo razvijaju da bi bile bez grešaka!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Nove Funkcije</h3>
-                            <p class="text-muted mb-0">Redovno se dodaju nove stvari da bi se osvježile aplikacije.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Dostupna Odmah</h3>
-                            <p class="text-muted mb-0">Ovog trena možete skinuti Blum aplikaciju i početi je koristiti!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Napravljena Iz Ljubavi</h3>
-                            <p class="text-muted mb-0">Da li je nešto napravljeno iz ljubavi ako nije učinjeno da bude dostupno svima?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.png">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.png" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Dr. Blum</div>
-                                <div class="project-name">Aplikacija za vozača</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.png">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.png" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Blum</div>
-                                <div class="project-name">Korisnička aplikacija</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.png">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.png" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Platforme</div>
-                                <div class="project-name">Android i iOS</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Veličina</div>
-                                <div class="project-name">Ispod 10MB</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Jednostavnost</div>
-                                <div class="project-name">Minimalna interakcija potrebna</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Komunikacija</div>
-                                <div class="project-name">Direktna komunikacija između vozača i klijenta</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
-            <div class="container text-center">
-                <h2 class="mb-4">Besplatan Download!</h2>
-                <a class="btn btn-light btn-xl" href="https://play.google.com/store/apps/details?id=com.blum">Blum</a>
-                <a class="btn btn-light btn-xl" href="https://play.google.com/store/apps/details?id=com.drblum">Dr. Blum</a>
-            </div>
-        </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="mt-0">Kontaktirajte nas!</h2>
-                        <hr class="divider my-4" />
-                        <p class="text-muted mb-5">Spremni ste da digitalizirate svoj biznis sa nama? Nazovite nas ili nam pošaljite email i mi ćemo Vam se javiti što je prije moguće!</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                        <div>+38766893980</div>
-                    </div>
-                    <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a class="d-block" href="mailto:blumltd@gmail.com">blumltd@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Blum Labs</div></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="vimeo" content="Name of your web site">
+<meta name="author" content="Marketify">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Waxon | Home</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/plugins.css" />
+<link rel="stylesheet" type="text/css" href="css/mycolors.css" />
+<link rel="stylesheet" type="text/css" href="css/darkMode.css" />
+<link rel="stylesheet" type="text/css" href="css/mycss.css" />
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+
+</head>
+<body> 
+
+<div class="waxon_tm_preloader">
+<div class="spinner_wrap">
+<div class="spinner"></div>
+</div>
+</div>
+
+
+<div class="waxon_tm_all_wrap" data-magic-cursor="" data-color="">
+
+
+
+<div class="waxon_tm_settings">
+<div class="icon">
+<img class="svg" src="img/svg/setting.svg" alt="" />
+<a class="link" href="#"></a>
+</div>
+<div class="wrapper">
+<span class="title">Unlimited Colors</span>
+<ul class="colors">
+<li><a class="blue" href="#"></a></li>
+<li><a class="green" href="#"></a></li>
+<li><a class="brown" href="#"></a></li>
+<li><a class="pink" href="#"></a></li>
+<li><a class="orange" href="#"></a></li>
+<li class="bl"><a class="black" href="#"></a></li>
+<li class="wh"><a class="white" href="#"></a></li>
+<li><a class="purple" href="#"></a></li>
+<li><a class="sky" href="#"></a></li>
+<li><a class="cadetBlue" href="#"></a></li>
+<li><a class="crimson" href="#"></a></li>
+<li><a class="olive" href="#"></a></li>
+<li><a class="red" href="#"></a></li>
+</ul>
+<span class="title">Magic Cursor</span>
+<ul class="cursor">
+<li><a class="showme show" href="#"></a></li>
+<li><a class="hide" href="#"><img class="svg" src="img/svg/arrow.svg" alt="" /></a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="waxon_tm_topbar">
+<div class="container">
+<div class="topbar_inner">
+<div class="logo">
+<a href="#">
+<img class="light" src="img/logo/logo.png" alt="" />
+<img class="dark" src="img/logo/dark.png" alt="" />
+</a>
+</div>
+<div class="menu">
+<div class="links">
+<ul class="anchor_nav">
+<li class="current">
+<a href="#home">
+<span class="first">Home</span>
+<span class="second">Home</span>
+</a>
+</li>
+<li>
+<a href="#about">
+<span class="first">About</span>
+<span class="second">About</span>
+</a>
+</li>
+<li>
+<a href="#portfolio">
+<span class="first">Portfolio</span>
+<span class="second">Portfolio</span>
+</a>
+</li>
+<li>
+<a href="#news">
+<span class="first">News</span>
+<span class="second">News</span>
+</a>
+</li>
+<li>
+<a href="#contact">
+<span class="first">Contact</span>
+<span class="second">Contact</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_mobile_menu">
+<div class="topbar_inner">
+<div class="container bigger">
+<div class="topbar_in">
+<div class="logo">
+<a href="#"><img src="img/logo/dark.png" alt="" /></a>
+</div>
+<div class="my_trigger">
+<div class="hamburger hamburger--collapse-r">
+<div class="hamburger-box">
+<div class="hamburger-inner"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown">
+<div class="container">
+<div class="dropdown_inner">
+<ul class="anchor_nav">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_hero" id="home">
+<div class="background">
+<div class="leftpart">
+</div>
+<div class="rightpart">
+<div class="inner">
+<div class="image" data-img-url="img/slider/2.jpg"></div>
+<div class="myOverlay"></div>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div class="content_inner">
+<div class="name">
+<h3 class="stroke">Alminko</h3>
+<h3>Kasibovic</h3>
+<span>Creative Web &amp; App Developer</span>
+</div>
+</div>
+<div class="waxon_tm_down" data-skin="dark" data-position="">  
+<div class="line_wrapper">
+<div class="line"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_about" id="about">
+<div class="container">
+<div class="about_inner">
+<div class="left">
+<img class="thumbnail" src="img/about/2.jpg" alt="" /> 
+</div>
+<div class="right">
+<div class="name">
+<h3>Alminko Kasibovic<span class="bg">About</span></h3>
+<span>Creative Web &amp; App Developer</span>
+</div>
+<div class="text">
+<p>My name is Alminko Kasibovic. I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
+<p>With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+</div>
+ <div class="waxon_tm_button" data-position="left"> 
+<a href="img/resume/resume.jpg" download>
+<span>Download CV</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_service">
+<div class="container">
+<div class="service_inner">
+<ul class="owl-carousel">
+<li class="item">
+<div class="list_inner">
+<img class="svg" src="img/svg/code.svg" alt="" />
+<div class="details">
+<h3>Web Development</h3>
+<p>Web design is a similar process of creation, with the intention of presenting...</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="list_inner">
+<img class="svg" src="img/svg/creativity.svg" alt="" />
+<div class="details">
+<h3>Creative Design</h3>
+<p>Web design is a similar process of creation, with the intention of presenting...</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="list_inner">
+<img class="svg" src="img/svg/telegram.svg" alt="" />
+<div class="details">
+<h3>Brand Identity</h3>
+<p>Web design is a similar process of creation, with the intention of presenting...</p>
+</div>
+</div>
+</li>
+<li class="item">
+<div class="list_inner">
+<img class="svg" src="img/svg/photoshop.svg" alt="" />
+<div class="details">
+<h3>Adobe Photoshop</h3>
+<p>Web design is a similar process of creation, with the intention of presenting...</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_portoflio" id="portfolio">
+<div class="container">
+<div class="waxon_tm_main_title">
+<div class="title">
+<h3>Featured Works<span class="bg">Portfolio</span></h3>
+</div>
+<div class="portfolio_filter">
+<ul>
+<li>
+<a href="#" class="current" data-filter="*">
+<span class="first">All</span>
+<span class="second">All</span>
+</a>
+</li>
+<li>
+<a href="#" data-filter=".vimeo">
+<span class="first">Vimeo Video</span>
+ <span class="second">Vimeo Video</span>
+</a>
+</li>
+<li>
+<a href="#" data-filter=".youtubevideo">
+<span class="first">YouTube Video</span>
+<span class="second">YouTube Video</span>
+</a>
+</li>
+<li>
+<a href="#" data-filter=".popupimage">
+<span class="first">Popup Image</span>
+<span class="second">Popup Image</span>
+</a>
+</li>
+</ul>
+<div class="wrapper">
+<a href="#"><span class="trigger"></span></a>
+</div>
+</div>
+</div>
+<div class="portfolio_inner">
+<ul class="gallery_zoom">
+<li class="vimeo">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/1-1.jpg" alt="" />
+<div class="video-wrapper">
+<video loop muted autoplay>
+<source src="https://player.vimeo.com/external/390322013.sd.mp4?s=15c5b725ee36b37364ff25c1a709ad4855bc3213&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+</video>
+</div>
+<a class="full_link" href="portfolio-single.html"></a>
+</div>
+<div class="title">
+<h3><a href="#">Solonick Dance</a></h3>
+<span><a href="#">Vimeo</a></span>
+</div>
+</div>
+</li>
+<li class="youtubevideo">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/1-1.jpg" alt="" />
+<div class="main" data-img-url="img/portfolio/7.jpg"></div>
+<div class="overlay">
+<img class="myimage" src="img/youtube.png" alt="" />
+</div>
+<a class="full_link popup-youtube" href="https://www.youtube.com/watch?v=5laTTnrf9Tc&ab_channel=JonnySuttonFoto"></a>
+</div>
+<div class="title">
+<h3><a href="#">Pantone 691</a></h3>
+<span><a href="#">YouTube</a></span>
+</div>
+</div>
+</li>
+<li class="popupimage">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/1-1.jpg" alt="" />
+<div class="main" data-img-url="img/portfolio/4.jpg"></div>
+<a class="full_link zoom" href="img/portfolio/4.jpg"></a>
+</div>
+<div class="title">
+<h3><a href="#">Sweet Cherry</a></h3>
+<span><a href="#">Image</a></span>
+</div>
+</div>
+</li>
+<li class="popupimage">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/1-1.jpg" alt="" />
+<div class="main" data-img-url="img/portfolio/5.jpg"></div>
+<a class="full_link zoom" href="img/portfolio/5.jpg"></a>
+</div>
+<div class="title">
+<h3><a href="#">Red Nike</a></h3>
+<span><a href="#">Image</a></span>
+</div>
+</div>
+</li>
+<li class="youtubevideo">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/1-1.jpg" alt="" />
+<div class="main" data-img-url="img/portfolio/8.jpg"></div>
+<div class="overlay">
+<img class="myimage" src="img/youtube.png" alt="" />
+</div>
+<a class="full_link popup-youtube" href="https://www.youtube.com/watch?v=5laTTnrf9Tc&ab_channel=JonnySuttonFoto"></a>
+</div>
+<div class="title">
+<h3><a href="#">Blue Lemon</a></h3>
+<span><a href="#">YouTube</a></span>
+</div>
+</div>
+</li>
+<li class="vimeo">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/1-1.jpg" alt="" />
+<div class="video-wrapper">
+<video loop muted autoplay>
+<source src="https://player.vimeo.com/video/309443658.sd.mp4?s=db3498515d124d308840893802ee139df82aba3a&amp;profile_id=165&amp;oauth2_token_id=57447761" type="video/mp4">
+</video>
+</div>
+<a class="full_link" href="portfolio-single.html"></a>
+</div>
+<div class="title">
+<h3><a href="#">Mondo Caldo</a></h3>
+<span><a href="#">Vimeo</a></span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="waxon_tm_button" data-position="center">
+<a href="portfolio.html">
+<span>View All Works</span>
+</a>
+</div>
+</div>
+
+
+<div class="waxon_tm_partners">
+<div class="container">
+<div class="partners_inner">
+<ul>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" src="img/partners/1.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s" src="img/partners/2.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s" src="img/partners/3.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s" src="img/partners/4.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" src="img/partners/5.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s" src="img/partners/1.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s" src="img/partners/2.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+<li>
+<div class="list_inner">
+<img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s" src="img/partners/3.png" alt="" />
+<a class="full_link" a href="#"></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_testimonials">
+<div class="container">
+<div class="waxon_tm_main_title">
+<div class="title">
+<h3>What Clients Say<span class="bg">Testimonial</span></h3>
+</div>
+</div>
+<div class="testi_inner">
+<div class="left">
+<div class="quote_list">
+<ul>
+<li class="active">
+<img class="svg" src="img/svg/quote-1.svg" alt="" />
+<p class="text">Good overall template. I am getting back into coding and had a simple question for the author. They responded within 30 minutes and answered my question. Highly recommend.</p>
+<div class="details">
+<div class="image">
+<div class="main" data-img-url="img/about/1.jpg"></div>
+</div>
+<div class="short">
+<h3 class="author"><span>Nelly Furtado</span></h3>
+<h3 class="job"><span>App Developer</span></h3>
+</div>
+</div>
+</li>
+<li>
+<img class="svg" src="img/svg/quote-1.svg" alt="" />
+<p class="text">I can't believe I got support and my problem resolved in just minutes from posting my question. Simply amazing team and amazing theme! Thank you very much guys for excellent support! </p>
+<div class="details">
+<div class="image">
+<div class="main" data-img-url="img/about/2.jpg"></div>
+</div>
+<div class="short">
+<h3 class="author"><span>Brian Ederson</span></h3>
+<h3 class="job"><span>Web Designer</span></h3>
+</div>
+</div>
+</li>
+<li>
+<img class="svg" src="img/svg/quote-1.svg" alt="" />
+<p class="text">Awesome template, well written code and looks great on any platform. The customer support is very helpful and as huge asset to this template. Overall a good design, that I am quite happy with.</p>
+<div class="details">
+<div class="image">
+<div class="main" data-img-url="img/about/3.jpg"></div>
+</div>
+<div class="short">
+<h3 class="author"><span>Steve Collins</span></h3>
+<h3 class="job"><span>Artel Corp.</span></h3>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="right">
+<div class="image_list">
+<ul class="masonry">
+<li class="active masonry_item">
+<div class="image">
+<img src="img/portfolio/3-4.jpg" alt="" />
+<div class="main" data-img-url="img/about/1.jpg"></div>
+</div>
+</li>
+<li class="masonry_item">
+<div class="image">
+<img src="img/portfolio/4-3.jpg" alt="" />
+<div class="main" data-img-url="img/about/2.jpg"></div>
+</div>
+</li>
+<li class="masonry_item">
+<div class="image">
+<img src="img/portfolio/1-1.jpg" alt="" />
+<div class="main" data-img-url="img/about/3.jpg"></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_news" id="news">
+<div class="container">
+<div class="waxon_tm_main_title">
+<div class="title">
+<h3>Latest News<span class="bg">News</span></h3>
+</div>
+</div>
+<div class="news_inner">
+<ul>
+<li class="wow fadeInDown" data-wow-duration="0.8s">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/4-3.jpg" alt="" />
+<div class="main" data-img-url="img/news/1.jpg"></div>
+<a class="full_link" a href="news-single.html"></a>
+</div>
+<div class="details">
+<h3 class="title"><a href="news-single.html">What is the Difference between Web and Brand Design</a></h3>
+<div class="waxon_tm_read_more">
+<a href="news-single.html">Read More</a>
+</div>
+</div>
+</div>
+</li>
+<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/4-3.jpg" alt="" />
+<div class="main" data-img-url="img/news/2.jpg"></div>
+<a class="full_link" a href="news-single.html"></a>
+</div>
+<div class="details">
+<h3 class="title"><a href="news-single.html">What is the Difference between Web and Brand Design</a></h3>
+<div class="waxon_tm_read_more">
+<a href="news-single.html">Read More</a>
+</div>
+</div>
+</div>
+</li>
+<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s">
+<div class="list_inner">
+<div class="image">
+<img src="img/portfolio/4-3.jpg" alt="" />
+<div class="main" data-img-url="img/news/3.jpg"></div>
+<a class="full_link" a href="news-single.html"></a>
+</div>
+<div class="details">
+<h3 class="title"><a href="news-single.html">What is the Difference between Web and Brand Design</a></h3>
+<div class="waxon_tm_read_more">
+<a href="news-single.html">Read More</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_contact" id="contact">
+<div class="bg_image"></div>
+<div class="container">
+<div class="contact_inner">
+<div class="waxon_tm_main_title">
+<div class="title">
+<h3>Get in Touch<span class="bg">Contact</span></h3>
+</div>
+</div>
+<div class="desc">
+<p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+</div>
+<div class="wrapper">
+<div class="left wow fadeInLeft" data-wow-duration="0.8s">
+<div class="fields">
+<form action="/" method="post" class="contact_form" id="contact_form">
+<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
+<div class="empty_notice"><span>Please Fill Required Fields</span></div>
+<div class="first">
+<ul>
+<li>
+<input id="name" type="text" placeholder="Name">
+</li>
+<li>
+<input id="email" type="text" placeholder="Email">
+</li>
+</ul>
+</div>
+<div class="last">
+<textarea id="message" placeholder="Message"></textarea>
+</div>
+<div class="waxon_tm_button" data-position="left">
+<a id="send_message" href="#">
+<span>Send Message</span>
+</a>
+</div>
+
+</form>
+</div>
+</div>
+<div class="right wow fadeInRight" data-wow-duration="0.8s">
+<div class="map_wrap">
+<div class="map" id="ieatmaps"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="waxon_tm_copyright">
+<div class="container">
+<div class="copyright_inner">
+<ul>
+<li class="wow fadeInDown" data-wow-duration="0.8s">
+<span>WAXON</span>
+<span>PORTFOLIO TEMPLATE</span>
+</li>
+<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s">
+<span>Brook 103,</span>
+<span>90021 New York, USA</span>
+</li>
+<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s">
+<span><a href="#"><span class="__cf_email__" data-cfemail="a3cbcae3d4c2dbcccd8dc0ccce">[email&#160;protected]</span></a></span>
+<span>+77 033 442 55 57</span>
+</li>
+<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s">
+<div class="social">
+<ul>
+<li>
+<a href="#">
+<span class="first"><i class="xcon-facebook"></i></span>
+<span class="second"><i class="xcon-facebook"></i></span>
+</a>
+</li>
+<li>
+<a href="#">
+<span class="first"><i class="xcon-twitter"></i></span>
+<span class="second"><i class="xcon-twitter"></i></span>
+</a>
+</li>
+<li>
+<a href="#">
+<span class="first"><i class="xcon-linkedin"></i></span>
+<span class="second"><i class="xcon-linkedin"></i></span>
+</a>
+</li><li>
+<a href="#">
+<span class="first"><i class="xcon-behance"></i></span>
+<span class="second"><i class="xcon-behance"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="mouse-cursor cursor-outer"></div>
+<div class="mouse-cursor cursor-inner"></div>
+
+</div>
+
+
+<script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
+<script src="js/plugins.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap">
+        </script>
+<script src="js/customcode.js"></script>
+
+</body>
 </html>
