@@ -19,7 +19,6 @@
 
 <div class="waxon_tm_preloader">
 </div>
-</div>
 
 
 <div class="waxon_tm_all_wrap" data-magic-cursor="" data-color="">
