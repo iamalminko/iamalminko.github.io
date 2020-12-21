@@ -1,20 +1,4 @@
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="vimeo" content="Name of your web site">
-<meta name="author" content="Marketify">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Alminko | Home</title>
 
-<link rel="icon" href="img/A.png">
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/plugins.css" />
-<link rel="stylesheet" type="text/css" href="css/mycolors.css" />
-<link rel="stylesheet" type="text/css" href="css/darkMode.css" />
-<link rel="stylesheet" type="text/css" href="css/mycss.css" />
-<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
-
-</head>
 <body> 
 
 <div class="waxon_tm_preloader">
