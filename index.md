@@ -106,7 +106,7 @@
                     <div class="content_inner">
                         <div class="name">
                             <h3 class="stroke">Alminko</h3>
-                            <h3>Kasibovic</h3>
+                            <h3>Kašibović</h3>
                             <span>Creative Web &amp; App Developer</span>
                         </div>
                     </div>
@@ -128,11 +128,11 @@
                     </div>
                     <div class="right">
                         <div class="name">
-                            <h3>Alminko Kasibovic<span class="bg">About</span></h3>
+                            <h3>Alminko Kašibović<span class="bg">About</span></h3>
                             <span>Creative Web &amp; App Developer</span>
                         </div>
                         <div class="text">
-                            <p>My name is Alminko Kasibovic. I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
+                            <p>My name is Alminko Kašibović. I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
                             <p>With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
                         </div>
                         <div class="waxon_tm_button" data-position="left">
@@ -207,21 +207,21 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-filter=".vimeo">
-                                    <span class="first">Vimeo Video</span>
-                                    <span class="second">Vimeo Video</span>
+                                <a href="#" data-filter=".webapp">
+                                    <span class="first">Web App</span>
+                                    <span class="second">Web App</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-filter=".youtubevideo">
-                                    <span class="first">YouTube Video</span>
-                                    <span class="second">YouTube Video</span>
+                                <a href="#" data-filter=".mobile">
+                                    <span class="first">Mobile</span>
+                                    <span class="second">Mobile</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-filter=".popupimage">
-                                    <span class="first">Popup Image</span>
-                                    <span class="second">Popup Image</span>
+                                <a href="#" data-filter=".shopify">
+                                    <span class="first">Shopify</span>
+                                    <span class="second">Shopify</span>
                                 </a>
                             </li>
                         </ul>
@@ -232,7 +232,7 @@
                 </div>
                 <div class="portfolio_inner">
                     <ul class="gallery_zoom">
-                        <li class="vimeo">
+                        <li class="webapp">
                             <div class="list_inner">
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
@@ -247,15 +247,12 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="youtubevideo">
+                        <li class="shopify">
                             <div class="list_inner">
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
                                     <div class="main" data-img-url="img/portfolio/7.jpg"></div>
-                                    <div class="overlay">
-                                        <img class="myimage" src="img/youtube.png" alt="" />
-                                    </div>
-                                    <a class="full_link popup-youtube" href="https://www.youtube.com/watch?v=5laTTnrf9Tc&ab_channel=JonnySuttonFoto"></a>
+                                    <a class="full_link" href="portfolio-milkman.html"></a>
                                 </div>
                                 <div class="title">
                                     <h3><a href="#">Milkman</a></h3>
@@ -263,12 +260,12 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="popupimage">
+                        <li class="mobile">
                             <div class="list_inner">
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
                                     <div class="main" data-img-url="img/portfolio/4.jpg"></div>
-                                    <a class="full_link zoom" href="img/portfolio/4.jpg"></a>
+                                    <a class="full_link" href="portfolio-blum.html"></a>
                                 </div>
                                 <div class="title">
                                     <h3><a href="#">Blum Ltd</a></h3>
@@ -276,36 +273,33 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="popupimage">
+                        <li class="shopify">
                             <div class="list_inner">
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
-                                    <div class="main" data-img-url="img/portfolio/5.jpg"></div>
-                                    <a class="full_link zoom" href="img/portfolio/5.jpg"></a>
+                                    <div class="main" data-img-url="img/portfolio/7.jpg"></div>
+                                    <a class="full_link" href="portfolio-milkman.html"></a>
                                 </div>
                                 <div class="title">
-                                    <h3><a href="#">Red Nike</a></h3>
-                                    <span><a href="#">Image</a></span>
+                                    <h3><a href="#">Milkman</a></h3>
+                                    <span><a href="#">milkman.net</a></span>
                                 </div>
                             </div>
                         </li>
-                        <li class="youtubevideo">
+                        <li class="mobile">
                             <div class="list_inner">
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
-                                    <div class="main" data-img-url="img/portfolio/8.jpg"></div>
-                                    <div class="overlay">
-                                        <img class="myimage" src="img/youtube.png" alt="" />
-                                    </div>
-                                    <a class="full_link popup-youtube" href="https://www.youtube.com/watch?v=5laTTnrf9Tc&ab_channel=JonnySuttonFoto"></a>
+                                    <div class="main" data-img-url="img/portfolio/4.jpg"></div>
+                                    <a class="full_link" href="portfolio-blum.html"></a>
                                 </div>
                                 <div class="title">
-                                    <h3><a href="#">Blue Lemon</a></h3>
-                                    <span><a href="#">YouTube</a></span>
+                                    <h3><a href="#">Blum Ltd</a></h3>
+                                    <span><a href="#">blumltd.net</a></span>
                                 </div>
                             </div>
                         </li>
-                        <li class="vimeo">
+                        <li class="mobile">
                             <div class="list_inner">
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
@@ -315,8 +309,8 @@
                                     <a class="full_link" href="portfolio-single.html"></a>
                                 </div>
                                 <div class="title">
-                                    <h3><a href="#">Mondo Caldo</a></h3>
-                                    <span><a href="#">Vimeo</a></span>
+                                    <h3><a href="#">eContainer</a></h3>
+                                    <span><a href="#">econtainer.net</a></span>
                                 </div>
                             </div>
                         </li>
@@ -402,7 +396,7 @@
                             <ul>
                                 <li class="active">
                                     <img class="svg" src="img/svg/quote-1.svg" alt="" />
-                                    <p class="text">Good overall template. I am getting back into coding and had a simple question for the author. They responded within 30 minutes and answered my question. Highly recommend.</p>
+                                    <p class="text">Good overall communication. I am starting a new business online and Alminko was on point. He always responded within 30 minutes and answered my questions. Highly recommend.</p>
                                     <div class="details">
                                         <div class="image">
                                             <div class="main" data-img-url="img/about/1.jpg"></div>
@@ -587,17 +581,17 @@
                 <div class="copyright_inner">
                     <ul>
                         <li class="wow fadeInDown" data-wow-duration="0.8s">
-                            <span>WAXON</span>
-                            <span>PORTFOLIO TEMPLATE</span>
+                            <span>ALMINKO</span>
+                            <span>BUSINESS SOLUTIONS</span>
                         </li>
                         <li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                            <span>Brook 103,</span>
-                            <span>90021 New York, USA</span>
+                            <span>Maglajska 1,</span>
+                            <span>71000 Sarajevo, BiH</span>
                         </li>
                         <li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s">
-                            <span><a href="#"><span class="__cf_email__" data-cfemail="a3cbcae3d4c2dbcccd8dc0ccce">[email&#160;protected]</span></a>
+                            <span><a href="#"><span>kalminko@live.com</span></a>
                             </span>
-                            <span>+77 033 442 55 57</span>
+                            <span>+387 66 893 980</span>
                         </li>
                         <li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s">
                             <div class="social">
