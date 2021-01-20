@@ -598,7 +598,7 @@
                             <span>71000 Sarajevo, BiH</span>
                         </li>
                         <li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s">
-                            <span><a href="#"><span>kalminko@live.com</span></a>
+                            <span><a href="#"><span>iamalminko@gmail.com</span></a>
                             </span>
                             <span>+387 66 893 980</span>
                         </li>
