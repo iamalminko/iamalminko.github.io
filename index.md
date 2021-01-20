@@ -1,4 +1,3 @@
-
 <body>
 
     <div class="waxon_tm_preloader">
@@ -133,7 +132,8 @@
                         </div>
                         <div class="text">
                             <p>My name is Alminko Kašibović. I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
-                            <p>With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+                            <p>With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to implementation
+                                and testing.</p>
                         </div>
                         <div class="waxon_tm_button" data-position="left">
                             <a href="img/resume/resume.jpg" download>
@@ -152,37 +152,46 @@
                     <ul class="owl-carousel">
                         <li class="item">
                             <div class="list_inner">
-                                <img class="svg" src="img/svg/code.svg" alt="" />
-                                <div class="details">
-                                    <h3>Web Development</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="list_inner">
-                                <img class="svg" src="img/svg/creativity.svg" alt="" />
-                                <div class="details">
-                                    <h3>Creative Design</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="list_inner">
-                                <img class="svg" src="img/svg/telegram.svg" alt="" />
+                                <img class="svg" src="img/tools/adobe-xd.png" alt="" />
                                 <div class="details">
                                     <h3>Brand Identity</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <p>I use AdobeXD to bring the client's vision forward and create strong brand identity.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="item">
                             <div class="list_inner">
-                                <img class="svg" src="img/svg/photoshop.svg" alt="" />
+                                <img class="svg" src="img/tools/shopify.png" alt="" />
                                 <div class="details">
-                                    <h3>Adobe Photoshop</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <h3>eCommerce</h3>
+                                    <p>Making money online has never been easier and Shopify is a go-to for startups.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="list_inner">
+                                <img class="svg" src="img/tools/node-js.png" alt="" />
+                                <div class="details">
+                                    <h3>Backend</h3>
+                                    <p>Backend is the backbone of every large project. That is why I use Node.js to develop the most responsive API's.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="list_inner">
+                                <img class="svg" src="img/tools/angular.png" alt="" />
+                                <div class="details">
+                                    <h3>Frontend</h3>
+                                    <p>To create engaging web-app user interface, Angular is a tool of choice. With Angular I can develop any dashboard and panel that the client imagines.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="list_inner">
+                                <img class="svg" src="img/tools/mongodb.png" alt="" />
+                                <div class="details">
+                                    <h3>Database</h3>
+                                    <p>Handling data in the most efficient way for my clients using MongoDB.</p>
                                 </div>
                             </div>
                         </li>
@@ -304,7 +313,7 @@
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
                                     <div class="video-wrapper">
-                                        <iframe src="https://www.youtube.com/embed/PAd_jRT0NAs?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=PAd_jRT0NAs" width="560" height="315" frameborder="0"></iframe>
+                                        <iframe src="https://www.youtube.com/embed/xoK-6Mqwxyg?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=PAd_jRT0NAs" width="560" height="315" frameborder="0"></iframe>
                                     </div>
                                     <a class="full_link" href="portfolio-single.html"></a>
                                 </div>
