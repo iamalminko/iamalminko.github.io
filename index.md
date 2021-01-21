@@ -256,19 +256,6 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="shopify">
-                            <div class="list_inner">
-                                <div class="image">
-                                    <img src="img/portfolio/1-1.jpg" alt="" />
-                                    <div class="main" data-img-url="img/portfolio/7.jpg"></div>
-                                    <a class="full_link" href="portfolio-milkman.html"></a>
-                                </div>
-                                <div class="title">
-                                    <h3><a href="#">Milkman</a></h3>
-                                    <span><a href="#">milkman.net</a></span>
-                                </div>
-                            </div>
-                        </li>
                         <li class="mobile">
                             <div class="list_inner">
                                 <div class="image">
@@ -285,6 +272,32 @@
                         <li class="shopify">
                             <div class="list_inner">
                                 <div class="image">
+                                    <img src="img/portfolio/5.jpg" alt="" />
+                                    <div class="main" data-img-url="img/portfolio/7.jpg"></div>
+                                    <a class="full_link" href="portfolio-milkman.html"></a>
+                                </div>
+                                <div class="title">
+                                    <h3><a href="#">Web Test Bench</a></h3>
+                                    <span><a href="#">webtestbench.net</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mobile">
+                            <div class="list_inner">
+                                <div class="image">
+                                    <img src="img/portfolio/6.jpg" alt="" />
+                                    <div class="main" data-img-url="img/portfolio/4.jpg"></div>
+                                    <a class="full_link" href="portfolio-blum.html"></a>
+                                </div>
+                                <div class="title">
+                                    <h3><a href="#">Unikat</a></h3>
+                                    <span><a href="#">unikat.net</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="shopify">
+                            <div class="list_inner">
+                                <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
                                     <div class="main" data-img-url="img/portfolio/7.jpg"></div>
                                     <a class="full_link" href="portfolio-milkman.html"></a>
@@ -292,19 +305,6 @@
                                 <div class="title">
                                     <h3><a href="#">Milkman</a></h3>
                                     <span><a href="#">milkman.net</a></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mobile">
-                            <div class="list_inner">
-                                <div class="image">
-                                    <img src="img/portfolio/1-1.jpg" alt="" />
-                                    <div class="main" data-img-url="img/portfolio/4.jpg"></div>
-                                    <a class="full_link" href="portfolio-blum.html"></a>
-                                </div>
-                                <div class="title">
-                                    <h3><a href="#">Blum Ltd</a></h3>
-                                    <span><a href="#">blumltd.net</a></span>
                                 </div>
                             </div>
                         </li>
