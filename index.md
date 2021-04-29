@@ -1,3 +1,4 @@
+
 <body>
 
     <div class="waxon_tm_preloader">
@@ -246,13 +247,39 @@
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
                                     <div class="video-wrapper">
-                                        <iframe src="https://www.youtube.com/embed/YFiWsIVpIoY?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=YFiWsIVpIoY" width="560" height="315" frameborder="0"></iframe>
+                                        <iframe src="https://www.youtube.com/embed/YFiWsIVpIoY?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=YFiWsIVpIoY" width="100%" height="100%" frameborder="0"></iframe>
                                     </div>
                                     <a class="full_link" href="portfolio-trucking.html"></a>
                                 </div>
                                 <div class="title">
                                     <h3><a href="#">ABS Trucking</a></h3>
                                     <span><a href="#">trucking.net</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="shopify">
+                            <div class="list_inner">
+                                <div class="image">
+                                    <img src="img/portfolio/1-1.jpg" alt="" />
+                                    <div class="main" data-img-url="img/portfolio/5.jpg"></div>
+                                    <a class="full_link" href="portfolio-milkman.html"></a>
+                                </div>
+                                <div class="title">
+                                    <h3><a href="#">Web Test Bench</a></h3>
+                                    <span><a href="#">webtestbench.net</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mobile">
+                            <div class="list_inner">
+                                <div class="image">
+                                    <img src="img/portfolio/1-1.jpg" alt="" />
+                                    <div class="main" data-img-url="img/portfolio/6.jpg"></div>
+                                    <a class="full_link" href="portfolio-blum.html"></a>
+                                </div>
+                                <div class="title">
+                                    <h3><a href="#">Unikat</a></h3>
+                                    <span><a href="#">unikat.net</a></span>
                                 </div>
                             </div>
                         </li>
@@ -266,32 +293,6 @@
                                 <div class="title">
                                     <h3><a href="#">Blum Ltd</a></h3>
                                     <span><a href="#">blumltd.net</a></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="shopify">
-                            <div class="list_inner">
-                                <div class="image">
-                                    <img src="img/portfolio/5.jpg" alt="" />
-                                    <div class="main" data-img-url="img/portfolio/7.jpg"></div>
-                                    <a class="full_link" href="portfolio-milkman.html"></a>
-                                </div>
-                                <div class="title">
-                                    <h3><a href="#">Web Test Bench</a></h3>
-                                    <span><a href="#">webtestbench.net</a></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mobile">
-                            <div class="list_inner">
-                                <div class="image">
-                                    <img src="img/portfolio/6.jpg" alt="" />
-                                    <div class="main" data-img-url="img/portfolio/4.jpg"></div>
-                                    <a class="full_link" href="portfolio-blum.html"></a>
-                                </div>
-                                <div class="title">
-                                    <h3><a href="#">Unikat</a></h3>
-                                    <span><a href="#">unikat.net</a></span>
                                 </div>
                             </div>
                         </li>
@@ -313,7 +314,7 @@
                                 <div class="image">
                                     <img src="img/portfolio/1-1.jpg" alt="" />
                                     <div class="video-wrapper">
-                                        <iframe src="https://www.youtube.com/embed/xoK-6Mqwxyg?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=PAd_jRT0NAs" width="560" height="315" frameborder="0"></iframe>
+                                        <iframe src="https://www.youtube.com/embed/xoK-6Mqwxyg?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=PAd_jRT0NAs" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
                                     </div>
                                     <a class="full_link" href="portfolio-single.html"></a>
                                 </div>
@@ -370,19 +371,19 @@
                         </li>
                         <li>
                             <div class="list_inner">
-                                <img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s" src="img/partners/1.png" alt="" />
+                                <img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s" src="img/partners/3.png" alt="" />
                                 <a class="full_link" a href="#"></a>
                             </div>
                         </li>
                         <li>
                             <div class="list_inner">
-                                <img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s" src="img/partners/2.png" alt="" />
+                                <img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s" src="img/partners/4.png" alt="" />
                                 <a class="full_link" a href="#"></a>
                             </div>
                         </li>
                         <li>
                             <div class="list_inner">
-                                <img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s" src="img/partners/3.png" alt="" />
+                                <img class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s" src="img/partners/2.png" alt="" />
                                 <a class="full_link" a href="#"></a>
                             </div>
                         </li>
